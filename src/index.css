@@ -28,6 +28,7 @@ button.cute {
   padding: 0 .67em;
   display: inline-flex; place-items: center;
   cursor: pointer;
+  user-select: none;
   box-shadow: 0 2px #000;
   translate: 0 -1px;
   margin-bottom: 2px;

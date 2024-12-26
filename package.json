@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "yarn build && rsync -avz --delete dist/ cyrus@drop:/var/www/vite"
+    "deploy": "yarn build && rsync -avz --delete dist/ cyrus@drop:/var/www/vite-blueberry"
   },
   "dependencies": {
     "react": "^18.3.1",
