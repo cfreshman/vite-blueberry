@@ -1,0 +1,47 @@
+:root {
+  font-family: monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #fff;
+  color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+}
+* {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+button.cute {
+  border-radius: 9em;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  min-height: 1.5em;
+  padding: 0 .67em;
+  display: inline-flex; place-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px #000;
+  translate: 0 -1px;
+  margin-bottom: 2px;
+  &:active {
+    box-shadow: 0 1px #000;
+    translate: 0 0;
+  }
+}
+input.cute {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  &::placholder {
+    color: inherit;
+    opacity: .5;
+  }
+}
